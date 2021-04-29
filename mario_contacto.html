@@ -7,34 +7,35 @@
     <meta name="author" content="Mario Castro De Los Santos">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto</title>
+    <link rel="stylesheet" href="estilos/estilo_contacto.css">
 </head>
-    <header>
-        <h1>Bienvenido a la pagina de contacto de E-Sports</h1>
-    </header>
-    <nav>
-        <a href="mario_index.html">Ir a Inicio</a>
-        <a href="mario_esports.html">Ir a E-sports</a>
-        <a href="mario_equipos.html">Ir a Equipos</a>
-        <a href="mario_noticias.html">Ir a Noticias</a>
-    </nav>
 <body>
+    <header>
+        <h1>Bienvenido a la pagina de contacto de los E-Sports</h1>
+    
+    <nav>
+        <ul class="clearfix" id="barraNavegacion">
+            <li><a href="mario_index.html">Ir a Inicio</a></li>
+            <li><a href="mario_esports.html">Ir a E-sports</a></li>
+            <li><a href="mario_equipos.html">Ir a Equipos</a></li>
+            <li><a href="mario_noticias.html">Ir a Noticias</a></li>
+        </ul>
+    </nav>
+    </header>
+
     <main>
         <article>
             <h1>Contacto</h1>
 
             <p>¿Estas interesado en formar parte de nosotros?</p>
             
-            <img src="recursos/YouTube.jpg" alt="imagen Youtube">
-            <a href="https://www.youtube.com/gaming" target="_blank">Youtube</a>
-            <br>
-            <img src="recursos/facebook.jpg" alt="imagen Facebook">
-            <a href="https://www.facebook.com" target="_blank">Facebook</a>
-            <br>
-            <img src="recursos/correo_elec.jpg" alt="imagen Correo">
-            <a href="mailto:mario.castrodls@uanl.edu.mx" target="_blank">Correo Electrónico</a>
-
-            <hr>
+            <div class="row">
+                <div class="column"><a href="https://www.youtube.com/gaming" target="_blank"><img src="recursos/YouTube.jpg" alt="imagen Youtube"></a></div>
+                <div class="column"><a href="https://www.facebook.com" target="_blank"><img src="recursos/facebook.jpg" alt="imagen Facebook"></a></div>
+                <div class="column"><a href="mailto:mario.castrodls@uanl.edu.mx" target="_blank"><img src="recursos/correo_elec.jpg" alt="imagen Correo"></a></div>
+            </div>
             <footer>
+                <hr>
                 <p>Dirección de Las Oficinas</p>
                 <address>
                     Av. Las Plazas Guadalupe #1 <br>
@@ -42,5 +43,5 @@
                 </address>
             </footer>
             &reg; Marca Registrada 
-        </body>
+</body>
 </html>
