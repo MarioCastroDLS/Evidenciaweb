@@ -1,0 +1,52 @@
+article{
+    background-color: lightskyblue;
+
+}
+article h1{
+    text-align: center;
+}
+
+footer{
+    background-color: lightyellow;
+}
+
+#barraNavegacion a{
+    display: block;
+    text-decoration: none;
+    font-family: fantasy;
+    color: lightskyblue;
+}
+
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#barraNavegacion{
+    text-align: center;
+    margin-top: 0;
+    padding-left: 0;
+    background-color: black;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 20px;
+}
+
+#barraNavegacion a:hover{
+    background-color: lightskyblue;
+    color: black;
+    outline: 1px solid black;
+
+}
+
+#barraNavegacion li{
+    float: left;
+    padding: 0;
+    width: 20%;
+    list-style-type:none;
+}
+
