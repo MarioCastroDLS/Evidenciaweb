@@ -90,4 +90,8 @@ article> h1, p{
     content: "";
     clear: both;
     display: table;
-  }
+}
+
+article img{
+    width: 100px;    
+}
